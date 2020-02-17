@@ -1,0 +1,183 @@
+body.login {
+    background: #fff9ef url(../image/login_background.png) repeat !important;
+}
+body {
+    background: #f1f1f1;
+    min-width: 0;
+    color: #444;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-size: 13px;
+    line-height: 1.4em;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#login {
+    width: 320px;
+    padding: 8% 0 0;
+    margin: auto;
+}
+.login h1 {
+    text-align: right;
+}
+#login h1 a  {
+    background-image: url(../image/logo.png);
+    margin: 0 0 0 8px;
+    width: 285px;
+    height: 85px;
+    background-size: 285px 85px;
+}
+.login h1 a {
+    
+    color: #444;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3em;
+    margin: 0 auto 25px;
+    padding: 0;
+    text-decoration: none;
+    
+    text-indent: -9999px;
+    outline: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.login form {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 46px;
+    font-weight: 400;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.13);
+}
+#login form p {
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+.login label {
+    font-size: 17px;
+    color: #a31e21;
+    cursor: pointer;
+}
+
+.login input[type="text"] {
+    border-color: #dddddd;
+    -webkit-border-radius: 10px;
+}
+.login input[type="password"] {
+    border-color: #dddddd;
+    -webkit-border-radius: 10px;
+}
+
+.login form .input, .login form input[type=checkbox], .login input[type=text] {
+    background: #fbfbfb;
+}
+
+.login form .input, .login input[type=text],  .login input[type=password] {
+    font-size: 24px;
+    width: 100%;
+    padding: 3px;
+    margin: 2px 6px 16px 0;
+}
+.login input[type=password]{
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #32373c;
+    outline: 0;
+    transition: 50ms border-color ease-in-out;
+}
+
+#login form p.submit {
+    margin: 0;
+    padding: 0;
+}
+#loginform p.submit, .login-action-lostpassword p.submit {
+    border: none;
+}
+#submitbtn{
+    height: 30px;
+    line-height: 28px;
+    padding: 0 12px 2px;
+
+    width: 120px;
+    float: right;
+    background-color: #a31e21!important;
+    background: -webkit-gradient(linear,left top,left bottom,from(#a31e21),to(#a31e21));
+    background: -webkit-linear-gradient(top,#a31e21,#a31e21);
+    background: -moz-linear-gradient(top,#a31e21,#a31e21);
+    background: -ms-linear-gradient(top,#a31e21,#a31e21);
+    background: -o-linear-gradient(top,#a31e21,#a31e21);
+    background-image: -ms-linear-gradient(top,#a31e21 0%,#a31e21 100%);
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #a31e21;
+
+    box-shadow: 0 1px 0 #006799;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+}
+#submitbtn:hover {
+    background-color: #f90!important;
+    background: -webkit-linear-gradient(top,#ff9900,#ff9900 );
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #f90;
+}
+#submitbtn:active {
+    background-color: #a31e21!important;
+    background: -webkit-linear-gradient(top,#FFFFFF,#a31e21);
+    color: #fff;
+    -webkit-border-radius: 4px;
+    border: 1px solid #fff;
+    box-shadow: inset 0 2px 0 #006799;
+    vertical-align: top
+    transform: translateY(1px);
+    outline: 2px solid transparent;
+    outline-offset: 0;   
+}
+.forgetme{
+    font-weight: 400;
+    float: left;
+}
+/*
+.rememberme{
+    font-size: 12px;
+    line-height: 19px;
+}
+.login form input[type=checkbox], .login input[type=text] {
+    background: #fbfbfb;
+}
+input[type=checkbox], input[type=radio] {
+    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 16px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    width: 16px;
+    min-width: 16px;
+    -webkit-appearance: none;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    transition: .05s border-color ease-in-out;
+    }
+    input[type=checkbox]:focus{
+    border-color: #5b9dd9;
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+    outline: 2px solid transparent;
+}
+
+*/
